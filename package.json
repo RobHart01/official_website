@@ -1,7 +1,6 @@
 {
   "name": "robert_harltey_official_website",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -22,5 +21,15 @@
   "devDependencies": {
     "concurrently": "^5.2.0",
     "nodemon": "^2.0.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RobHart01/official_website.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/RobHart01/official_website/issues"
+  },
+  "homepage": "https://github.com/RobHart01/official_website#readme",
+  "description": "Official website created in React"
 }
