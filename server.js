@@ -1,6 +1,9 @@
 const express = require("express");
 const path = require("path");
 const app = express();
+
+const connectDB = require("./config/db");
+
 app.get("/", (req, res) => res.send("API's running nicely boss"));
 app.use(express.json({ extended: false }));
 const PORT = process.env.PORT || 5000;
